@@ -20,13 +20,14 @@ But whatever. It was just supposed to be fun.
 As it is currently written, these are the approximate runtimes on my
 Macbook Pro, utilizing only a single 2.7GHz i7 CPU:
 
-| *range*        | *runtime*                              |
-| -------:       | ---------:                             |
-| 1 - 100        | 0.001384 seconds                       |
-| 1 - 1,000      | 0.003717 seconds                       |
-| 1 - 10,000     | 0.123570 seconds                       |
-| 1 - 100,000    | 4.932996 seconds                       |
-| 1 - 1,000,000  | 363.863991 seconds (~6 minutes)        |
+| *range*        | *runtime*                                       |
+| -------:       | ---------:                                      |
+| 1 - 100        | 0.001384 seconds                                |
+| 1 - 1,000      | 0.003717 seconds                                |
+| 1 - 10,000     | 0.123570 seconds                                |
+| 1 - 100,000    | 4.932996 seconds                                |
+| 1 - 1,000,000  | 363.863991 seconds (~6 minutes)                 |
+| 1 - 10,000,000 | 21143.8235 seconds (~352.4 minutes; ~5.9 hours) |
 
 I'm thinking this might be a nice opportunity for me to learn about
 threading/parallelization. Maybe for v2. But I've had enough fun for
