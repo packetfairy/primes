@@ -10,7 +10,7 @@ primes = []
 def amiprime(check, verbose, f):
     before = time.time()
     for prime in primes:
-        if check%prime == 0:
+        if check % prime == 0:
             return
     now = time.time()
     primes.append(check)
